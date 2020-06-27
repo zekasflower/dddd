@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Page meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+        <title> Settings </title>
+
+
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap 4.5.0 -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Our custom style -->
+
+
+    </head>
+
+    <body>
+        
+        <!-- Settings -->
+        <section class="settings">
+            <div class="container">
+            
+                <!-- Header -->
+                <header class="page-header position-fixed w-100 p-3 text-center text-dark overflow-hidden">
+
+                    <i class="fas fa-chevron-left fa-lg fa-fw float-left mt-1"></i>
+
+                    <h4 class="font-weight-normal p-0 m-0"> Settings </h4>
+
+                </header>
+                <!-- End header -->
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-light fixed-bottom pt-4 text-center pb-2 w-100">
+
+                    <ul class="navbar-nav d-inline-block ml-4 mt-2 w-100">
+
+                        <li class="nav-item d-inline-block">
+
+                            <a href="#" class="nav-link">
+
+                                <i class="fas fa-th fa-lg fa-fw"></i>
+
+                            </a>
+
+                        </li>
+                        
+                        <li class="nav-item d-inline-block ml-5">
+
+                            <a href="#" class="nav-link">
+
+                                <i class="fas fa-comment-dots fa-lg fa-fw"></i>
+
+                            </a>
+
+                        </li>
+
+                        
+                        <li class="nav-item d-inline-block ml-4 special-item">
+
+                            <a href="#" class="nav-link position-relative rounded-circle">
+
+                                <i class="fas fa-plus fa-lg fa-fw"></i>
+
+                            </a>
+
+                        </li>
+
+                        
+                        <li class="nav-item d-inline-block ml-5">
+
+                            <a href="#" class="nav-link">
+
+                                <i class="fas fa-heart fa-lg fa-fw"></i>
+
+                            </a>
+                            
+                        </li>
+                        
+                        <li class="nav-item d-inline-block ml-5">
+
+                            <a href="#" class="nav-link">
+
+                                <img class="rounded-circle" src="https://placehold.it/30/2c3e50" alt="">
+
+                            </a>
+
+                        </li>
+                        
+                    </ul>
+
+                </nav>
+                <!-- End navbar -->
+
+                <!-- Settings header -->
+                <div class="settings-header p-2 m-auto">
+                    
+                    <a href="#" class="d-block text-danger text-right pr-2"> Log out </a>
+
+                    <div class="user text-center">
+
+                        <img class="rounded-circle" src="https://placehold.it/100/2c3e50" alt="">
+
+                        <h4 class="text-dark mt-3 mb-0"> Abdullah Mohammed </h4>
+
+                        <p class="text-black-50"> zekas.flower@gmail.com </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+                <article class="ml-auto mr-auto mt-5">
+
+                    <!-- Tabs -->
+                    <div class="tabs">
+
+                        <ul class="list-unstyled text-dark">
+
+                            <li class="p-3 pl-4 mb-4" data-content=".content-profile">
+
+                                Profile
+                                <i class="fas fa-chevron-right fa-fw float-right mt-1"></i>
+                                
+                            </li>
+                            
+                            <li class="p-3 pl-4 mb-4" data-content=".content-account-info">
+
+                                Account info
+                                <i class="fas fa-chevron-right fa-fw float-right mt-1"></i>
+                                
+                            </li>
+                            
+                            <li class="p-3 pl-4 mb-4" data-content=".content-password">
+
+                                Password
+                                <i class="fas fa-chevron-right fa-fw float-right mt-1"></i>
+                                
+                            </li>
+                            
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+        <!-- End settings -->
+
+        <!-- Settings tabs content -->
+        <section class="tabs-content text-dark">
+
+            <!-- Profile -->
+            
+            <div class="content-profile m-auto">
+
+                <!-- Header -->
+                <header class="page-header position-fixed w-100 p-3 text-center text-dark   overflow-hidden">
+
+                    <i class="fas fa-chevron-left fa-lg fa-fw float-left mt-1"></i>
+                
+                    <h4 class="font-weight-normal p-0 m-0"> Update your profile </h4>
+                
+                </header>
+                <!-- End header -->
+
+                <form action="" class="pt-2">
+
+                    <div class="form-group">
+
+                        <!-- User imgs -->
+                        <div class="account-imgs position-relative">
+                            
+                            <div class="cover overflow-hidden text-center position-relative d-flex">
+
+                                <img class="d-block w-100" src="https://placehold.it/300/2c3e50" alt="">
+
+                                <i class="fas fa-camera fa-2x fa-fw position-absolute text-light"></i>
+
+                                <input class="position-absolute" type="file">
+
+                            </div>
+                            
+                            <div class="avatar position-absolute">
+
+                                <img class="rounded-circle img-thumbnail" src="https://placehold.it/100/2c3e50" alt="">
+
+                                <i class="fas fa-camera fa-lg fa-fw position-absolute text-light"></i>
+
+                                <input class="position-absolute" type="file">
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <h5 class="mb-3"> Bio </h5>
+
+                        <textarea class="form-control form-control-lg mb-4" placeholder="Edit your bio" rows="3"></textarea>
+
+                    </div>
+                    
+                    <div class="form-group">
+
+                        <h5 class="mb-3"> Tagline </h5>
+    
+                        <input type="text" class="form-control form-control-lg mb-4" placeholder="Add a tagline">
+                        
+                    </div>
+
+                    <div class="form-group privacy-switch overflow-hidden">
+
+                        <h5 class="mb-3 mt-2 text-dark d-inline-block"> Private account </h5>
+
+                        <i class="fas fa-toggle-off fa-2x fa-fw text-muted float-right mt-1"></i>
+
+                    </div>
+                    
+
+                    <input type="submit" class="btn btn-lg btn-success w-100" value="Submit changes">
+
+                </form>
+                
+            </div>
+            
+            <!-- Account info -->
+            <div class="content-account-info m-auto">
+
+                <!-- Header -->
+                <header class="page-header position-fixed w-100 p-3 text-center text-dark   overflow-hidden">
+
+                    <i class="fas fa-chevron-left fa-lg fa-fw float-left mt-1"></i>
+                
+                    <h4 class="font-weight-normal p-0 m-0"> Update your info </h4>
+                
+                </header>
+                <!-- End header -->
+
+                <form action="" class="pt-5">
+
+                    <div class="form-group">
+
+                        <h5 class="mb-3"> Username </h5>
+
+                        <input type="text" class="form-control form-control-lg mb-4" placeholder="Username">
+
+                    </div>
+
+                    
+                    <div class="form-group">
+
+                        <h5 class="mb-3"> Birthday </h5>
+    
+                        <input type="date" class="form-control form-control-lg" id="birth">
+                        
+                    </div>
+
+                    <div class="form-group">
+
+                        <h5 class="mb-3 mt-2 text-dark"> Gender </h5>
+
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="radio1" id="radio1" value="female">
+
+                            <label class="form-check-label ml-1" for="radio1"> Female </label>
+
+                        </div>
+
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="radio1" id="radio2" value="male">
+
+                            <label class="form-check-label ml-1" for="radio2"> Male </label>
+                            
+                        </div>
+
+                    </div>
+                
+                    <input type="submit" class="btn btn-lg btn-success w-100" value="Submit changes">
+
+                </form>
+                
+            </div>
+
+            <!-- Password -->
+            <div class="content-password m-auto">
+
+                <!-- Header -->
+                <header class="page-header position-fixed w-100 p-3 text-center text-dark   overflow-hidden">
+
+                    <i class="fas fa-chevron-left fa-lg fa-fw float-left mt-1"></i>
+                
+                    <h4 class="font-weight-normal p-0 m-0"> Update your password </h4>
+                
+                </header>
+                <!-- End header -->
+
+                <form action="" class="pt-5">
+
+                    <input type="password" class="form-control form-control-lg mb-4" placeholder="Current password">
+                    
+                    <input type="password" class="form-control form-control-lg mb-4" placeholder="New password">
+                    
+                    <input type="password" class="form-control form-control-lg mb-4" placeholder="Confirm password">
+
+                    <input type="submit" class="btn btn-lg btn-success w-100" value="Update">
+
+                </form>
+                
+            </div>
+
+            
+
+        </section>
+
+
+        <!-- Scripts -->
+        <script src="js/jquery-2.2.4.min.js"></script> <!-- jQuery 2.2.4 -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- Popper 1.16.0 -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap 4.5.0 -->
+        <script src="js/all.min.js"></script> <!-- Fontawesome 5.13.0 -->
+
+        <script src="js/main.js"></script> <!-- Our custom script -->
+        
+    </body>
+</html>
